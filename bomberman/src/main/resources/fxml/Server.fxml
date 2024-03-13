@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.cvut.fel.pjv.controller.ServerFXMLController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/serverBackGround.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="72.0" layoutY="373.0" mnemonicParsing="false" onAction="#joinServerClicked" opacity="0.0" prefHeight="98.0" prefWidth="263.0" text="Button" />
+      <Button layoutX="459.0" layoutY="373.0" mnemonicParsing="false" onAction="#createServerClicked" opacity="0.0" prefHeight="98.0" prefWidth="256.0" text="Button" />
+      <Button fx:id="backButton" layoutX="325.0" layoutY="509.0" mnemonicParsing="false" onAction="#backButtonClicked" opacity="0.0" prefHeight="52.0" prefWidth="149.0" text="Button" />
+   </children>
+</AnchorPane>

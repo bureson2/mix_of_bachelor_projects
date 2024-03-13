@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"cz.cvut.fel.pjv.controller"},{"l":"cz.cvut.fel.pjv.model.Block"},{"l":"cz.cvut.fel.pjv.model.Bonus"},{"l":"cz.cvut.fel.pjv.model.Enemy"},{"l":"cz.cvut.fel.pjv.model.Origin"},{"l":"cz.cvut.fel.pjv.view"}];updateSearchResults();

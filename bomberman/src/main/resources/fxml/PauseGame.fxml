@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.cvut.fel.pjv.controller.PauseGameFXMLController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseBackGround.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="saveButton" layoutX="475.0" layoutY="23.0" mnemonicParsing="false" onAction="#saveButtonClicked" opacity="0.0" prefHeight="103.0" prefWidth="255.0" text="Button" />
+      <Button fx:id="continueButton" layoutX="475.0" layoutY="245.0" mnemonicParsing="false" onAction="#continueButtonClicked" opacity="0.0" prefHeight="96.0" prefWidth="255.0" text="Button" />
+      <Button layoutX="475.0" layoutY="463.0" mnemonicParsing="false" onAction="#exitButtionClicked" opacity="0.0" prefHeight="96.0" prefWidth="255.0" text="Button" />
+   </children>
+</AnchorPane>
